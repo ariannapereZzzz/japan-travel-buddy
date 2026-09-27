@@ -6,5 +6,10 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   server: { port: 3200, strictPort: true },
-  plugins: [tsconfigPaths(), tanstackStart(), react(), tailwindcss()],
+  plugins: [
+    tsconfigPaths(),
+    tanstackStart({ customViteReactPlugin: true }),
+    react(),
+    tailwindcss(),
+  ],
 });
