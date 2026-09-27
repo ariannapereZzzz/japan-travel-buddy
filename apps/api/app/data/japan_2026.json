@@ -1,0 +1,425 @@
+{
+  "slug": "japan-2026",
+  "title": "Japan 2026",
+  "eyebrow": "日本 · Trip Manager",
+  "date_label": "September 30 – October 14",
+  "route": [
+    "Osaka",
+    "Kyoto",
+    "Tokyo",
+    "Kamikochi (day tour)",
+    "Kawaguchiko (day trip)"
+  ],
+  "callout": {
+    "title": "Kamikochi as a guided day tour",
+    "body": "Kyoto connects straight to Tokyo (direct Shinkansen), and Kamikochi is a single guided day tour booked from Tokyo (train + bus + conductor, all handled by the tour operator). No separate hotel, no self-navigated transfers, no reservations to juggle yourself."
+  },
+  "hotels": [
+    {
+      "city": "Osaka — Hotel Livemax Budget Namba",
+      "check_in": "Wed, Sep 30, 2026",
+      "check_out": "Tue, Oct 6, 2026",
+      "nights": 6
+    },
+    {
+      "city": "Kyoto",
+      "check_in": "Tue, Oct 6, 2026",
+      "check_out": "Thu, Oct 8, 2026",
+      "nights": 2
+    },
+    {
+      "city": "Tokyo (Ueno)",
+      "check_in": "Thu, Oct 8, 2026",
+      "check_out": "Wed, Oct 14, 2026",
+      "nights": 6
+    }
+  ],
+  "flight_groups": [
+    {
+      "label": "Outbound",
+      "legs": [
+        {
+          "origin": "CRK",
+          "destination": "NRT",
+          "date": "Sep 30, 2026",
+          "depart": "4:45 AM",
+          "arrive": "10:15 AM"
+        },
+        {
+          "origin": "NRT",
+          "destination": "KIX",
+          "date": "Sep 30, 2026",
+          "depart": "5:40 PM",
+          "arrive": "7:15 PM"
+        }
+      ]
+    },
+    {
+      "label": "Return",
+      "legs": [
+        {
+          "origin": "NRT",
+          "destination": "CRK",
+          "date": "Oct 14, 2026",
+          "depart": "11:15 AM",
+          "arrive": "2:55 PM"
+        }
+      ]
+    }
+  ],
+  "legs": [
+    {
+      "origin": "Osaka",
+      "destination": "Kyoto",
+      "duration": "~30 min",
+      "mode": "Train",
+      "detail": "JR Kyoto Line, Hankyu, or Keihan all work — Hankyu from Umeda into central Kyoto (Kawaramachi) is often most convenient for sightseeing. Covered by a regional IC card, no reservation needed."
+    },
+    {
+      "origin": "Kyoto",
+      "destination": "Tokyo",
+      "duration": "~2h15m",
+      "mode": "Shinkansen (direct)",
+      "detail": "Direct Nozomi or Hikari Shinkansen, no transfers, departures every 10–15 minutes. Reserved seats recommended in peak season but not required — this is about as easy as long-distance travel in Japan gets."
+    },
+    {
+      "origin": "Tokyo (Shinjuku)",
+      "destination": "Kamikochi",
+      "duration": "~11–12 hrs round trip (day tour)",
+      "mode": "Guided Day Tour",
+      "detail": "Multiple operators (Viator, KKday, Klook) run this: meet at Shinjuku ~7:00–7:30am, JR Limited Express Azusa (reserved seats included) to Matsumoto, then a chartered bus into Kamikochi. You get roughly 4–5 hours of free time at Kamikochi before the same process in reverse, typically back in Tokyo by early evening. Price is usually around ¥12,000–18,000 per person, all transport and a conductor included — no separate tickets or reservations to manage yourself.",
+      "flag": "Book this well ahead of your trip, especially for early-mid October — autumn color season is peak demand for these tours."
+    },
+    {
+      "origin": "Tokyo (Shinjuku)",
+      "destination": "Kawaguchiko",
+      "duration": "~2 hrs",
+      "mode": "Highway Bus or Train",
+      "detail": "Direct highway bus from Shinjuku to Kawaguchiko Station (~2 hrs) is simplest. Alternatively, train via Ōtsuki to Kawaguchiko. Buses can fill up on weekends — booking a day or two ahead is safer."
+    },
+    {
+      "origin": "Kawaguchiko",
+      "destination": "Tokyo (Ueno)",
+      "duration": "~2 hrs",
+      "mode": "Highway Bus or Train",
+      "detail": "Same route in reverse: direct highway bus from Kawaguchiko Station to Shinjuku (~2 hrs), then local transfer to Ueno. Or train via Ōtsuki."
+    },
+    {
+      "origin": "Kansai Airport (KIX)",
+      "destination": "Namba",
+      "duration": "~35–40 min",
+      "mode": "Train (Nankai Rapi:t)",
+      "detail": "The Nankai Rapi:t limited express runs direct from KIX to Namba, all-reserved seats, about every 30 min, roughly ¥1,400–1,700 one-way. Cheaper alternative: the Nankai Airport Express (unreserved) takes ~50 min for about ¥970. A Limousine Bus also runs (~70 min, ~¥1,400) if you'd rather skip trains after a long flight.",
+      "flag": "Landing 7:15pm means you'll likely be on a fairly late train — the Rapi:t runs into the evening, but confirm the last departure time doesn't leave you stranded if your KIX flight is delayed."
+    },
+    {
+      "origin": "Ueno",
+      "destination": "Narita Airport (NRT)",
+      "duration": "~41 min",
+      "mode": "Train (Keisei Skyliner)",
+      "detail": "The Keisei Skyliner runs direct from Keisei Ueno Station to Narita, non-stop, about every 20 min, roughly ¥2,300–2,600 one-way (cheaper booked online in advance). Cheaper/slower option: the local Keisei Main Line, ~75 min for about ¥1,050. Keisei Ueno Station is a ~2 min walk from JR Ueno Station.",
+      "detail_extra": "For an 11:15am flight, catching a Skyliner by ~8:30am gets you to Narita by ~9:15am — comfortable buffer for international check-in and security."
+    }
+  ],
+  "days": [
+    {
+      "code": "d0930",
+      "date_label": "Sep 30",
+      "title": "Arrive · Osaka",
+      "subtitle": "Hotel Livemax Budget Namba — Night 1 of 6 · Late check-in",
+      "leg_index": 5,
+      "flights": [
+        {
+          "origin": "CRK",
+          "destination": "NRT",
+          "depart": "4:45 AM",
+          "arrive": "10:15 AM"
+        },
+        {
+          "origin": "NRT",
+          "destination": "KIX",
+          "depart": "5:40 PM",
+          "arrive": "7:15 PM"
+        }
+      ],
+      "tasks": [
+        "Land NRT 10:15am — long layover (~7 hrs) before the KIX flight",
+        "Store luggage / rest at Narita, or a quick trip into Narita town",
+        "Flight to Kansai (KIX), arrive 7:15pm",
+        "Nankai Rapi:t from KIX to Namba (~35–40 min)",
+        "From Namba Station: 1 subway stop on the Sennichimae Line to Sakuragawa (~3–4 min), then ~4–7 min walk to the hotel — easier than the ~10–15 min walk direct, especially with luggage this late",
+        "Realistic check-in ~9–9:30pm",
+        "Quick dinner nearby, rest — no big evening plans tonight"
+      ]
+    },
+    {
+      "code": "d1001",
+      "date_label": "Oct 1",
+      "title": "Flexible / Rest Day",
+      "subtitle": "Night 2 of 6 · Osaka — open, fill as you like",
+      "tasks": [
+        "Open day — ease into the trip after arrival",
+        "Ideas if you want something: Osaka Aquarium (Kaiyukan), Shitennoji Temple, or a Kobe day trip (Kobe beef, Kitano ijinkan, ~30 min from Osaka)",
+        "Or just rest and recover from the flight"
+      ]
+    },
+    {
+      "code": "d1002",
+      "date_label": "Oct 2",
+      "title": "Katsuoji Temple",
+      "subtitle": "Night 3 of 6 · Note: peak autumn color is mid-to-late Nov, so expect green trees, not fall colors",
+      "transit": "Hankyu Minoo Line from Umeda (~30 min) + taxi/shuttle",
+      "tasks": [
+        "Hankyu Minoo Line from Umeda to Minoo Station (~30 min)",
+        "Katsuoji Temple — thousands of daruma dolls covering the grounds, ~15 min taxi from the station (or the seasonal shuttle bus)",
+        "Return to Umeda in the evening",
+        "Nakazakicho — retro café district just north of Umeda, easy stop on the way back"
+      ]
+    },
+    {
+      "code": "d1003",
+      "date_label": "Oct 3",
+      "title": "Nara Day Trip",
+      "subtitle": "Night 4 of 6 · Round trip from Osaka",
+      "transit": "JR/Kintetsu ~40–50 min each way",
+      "tasks": [
+        "Nara Park",
+        "Tōdai-ji",
+        "Kasuga Taisha",
+        "Naramachi",
+        "Return to Osaka"
+      ]
+    },
+    {
+      "code": "d1004",
+      "date_label": "Oct 4",
+      "title": "Ikoma Sanjo Skyland",
+      "subtitle": "Night 5 of 6 · Mt. Ikoma — free admission, pay per ride",
+      "transit": "Namba → Ikoma Sta (~20 min) → cable car (~16 min)",
+      "tasks": [
+        "Kintetsu Nara Line: Osaka-Namba → Ikoma Station (~20 min)",
+        "Walk ~3 min to Toriimae Station",
+        "Ikoma Cable Car up to the summit — transfer at Hōzanji Station (~16 min total, retro dog/cat-shaped cars)",
+        "Ride the Flying Tower for panoramic views over Osaka & Nara",
+        "Cycle Monorail, Sky Walker Ferris wheel, and other rides",
+        "Optional: Hōzan-ji Temple stop on the way down",
+        "Park closes ~5:00pm (Oct = standard hours, not summer extended) — plan to leave rides by then",
+        "Last cable car down is ~5:30pm — do not miss this, there's no other way down",
+        "Dinner near Ikoma Station: TAMAGAWA (yakiniku, 3 min walk, opens 5pm) or Kushikatsu Tanaka (izakaya, opens 4pm) — both an easy stop between the cable car and the train back",
+        "Kintetsu Nara Line back to Osaka-Namba (~20 min)"
+      ]
+    },
+    {
+      "code": "d1005",
+      "date_label": "Oct 5",
+      "title": "Osaka Highlights Day",
+      "subtitle": "Night 6 of 6 · Extra day (was Matsumoto/Takayama)",
+      "tasks": [
+        "Osaka Castle — morning, before crowds build",
+        "Gozabune Boat — 20 min gold-leaf boat ride around the castle moat, same-day tickets only, last departure 4:30pm",
+        "Travel to Umeda (~20 min by subway/JR)",
+        "Umeda Sky Building — Floating Garden Observatory",
+        "HEP FIVE Ferris Wheel — the red wheel on top of the HEP FIVE building, great late-afternoon views",
+        "Travel to Dotonbori (~20 min)",
+        "Tombori River Cruise at sunset — short boat ride through the canal, neon signs lighting up as it gets dark",
+        "Duck into the back alleys just off the main Dotonbori strip — quieter, fewer crowds, some of the best small eateries hide back there",
+        "Tsutenkaku Tower Slide — the tower's signature slide, in Shinsekai, a short walk/ride from Dotonbori"
+      ]
+    },
+    {
+      "code": "d1006",
+      "date_label": "Oct 6",
+      "title": "Osaka → Kyoto",
+      "subtitle": "Night 1 of 2 in Kyoto",
+      "transit": "Train ~30 min (JR / Hankyu / Keihan)",
+      "leg_index": 0,
+      "tasks": [
+        "Travel Osaka → Kyoto, check in",
+        "Fushimi Inari",
+        "Gion",
+        "Yasaka Shrine",
+        "Ninenzaka — historic sloped street heading south from Yasaka Shrine",
+        "Starbucks Ninenzaka Yasaka Chaya-dori — Kyoto's famous traditional-machiya Starbucks, right on the slope",
+        "Hokanji Temple (Yasaka Pagoda) — just off Ninenzaka",
+        "Sannenzaka — continues up toward Kiyomizu",
+        "Kiyomizu-dera — iconic temple at the top",
+        "Kawaramachi evening"
+      ]
+    },
+    {
+      "code": "d1007",
+      "date_label": "Oct 7",
+      "title": "Kyoto",
+      "subtitle": "Night 2 of 2 · Arashiyama side + Hozugawa boat ride + bamboo light-up at night",
+      "transit": "Sagano Romantic Train + boat, ~2.5 hrs combined",
+      "tasks": [
+        "Morning: Sagano Romantic Train (Torokko) from Saga-Arashiyama to Kameoka (~25 min, scenic one-way)",
+        "Hozugawa River Boat Ride back to Arashiyama (~2 hrs, traditional boatmen, ends near Togetsukyo Bridge) — book a morning slot ahead, these sell out especially in autumn",
+        "Bamboo Grove",
+        "Tenryū-ji",
+        "Kinkaku-ji or alternative temple",
+        "Evening: Arashiyama Tsukitouro bamboo lantern light-up (18:00–21:00, last admission 20:30) — ticketed event, book ahead via EX Travel Reservations"
+      ]
+    },
+    {
+      "code": "d1008",
+      "date_label": "Oct 8",
+      "title": "Kyoto → Tokyo",
+      "subtitle": "Ueno — Night 1 of 6",
+      "transit": "Shinkansen ~2h15m, direct",
+      "leg_index": 1,
+      "tasks": [
+        "Direct Shinkansen Kyoto → Tokyo (no transfer)",
+        "Check in Ueno",
+        "Ameyoko",
+        "Easy evening — early night before tomorrow's early tour pickup"
+      ]
+    },
+    {
+      "code": "d1009",
+      "date_label": "Oct 9",
+      "title": "Kamikochi Day Tour",
+      "subtitle": "Ueno — Night 2 of 6 · Guided tour, booked separately",
+      "transit": "Guided day tour — Azusa Ltd Express + chartered bus",
+      "leg_index": 2,
+      "tasks": [
+        "Meet tour conductor at Shinjuku, ~7:00–7:30am",
+        "JR Limited Express Azusa (reserved seats) to Matsumoto — no transfers, all handled by the tour",
+        "Transfer to chartered tour bus into Kamikochi",
+        "~4–5 hours free time: Kappa Bridge, Azusa River, Taisho Pond, Myōjin area",
+        "Autumn photography — early October is early-season color, peak is closer to Oct 17, so expect partial color rather than full peak",
+        "Bus back to Matsumoto, then train back to Shinjuku — typically arriving back in Tokyo by evening"
+      ]
+    },
+    {
+      "code": "d1010",
+      "date_label": "Oct 10",
+      "title": "Kawaguchiko Day Trip",
+      "subtitle": "Ueno — Night 3 of 6 · Round trip, same-day — no separate hotel needed",
+      "transit": "Highway bus ~2 hrs each way, or train via Ōtsuki",
+      "leg_index": 3,
+      "tasks": [
+        "Early highway bus from Shinjuku (~2 hrs) — aim for a morning departure to maximize time there",
+        "Chureito Pagoda",
+        "Oishi Park",
+        "Lake Kawaguchi walk",
+        "Mt. Fuji Panoramic Ropeway",
+        "Afternoon bus/train back to Tokyo (~2 hrs), back at Ueno by evening"
+      ]
+    },
+    {
+      "code": "d1011",
+      "date_label": "Oct 11",
+      "title": "Tokyo Shopping",
+      "subtitle": "Ueno — Night 4 of 6 · Restored now that Kawaguchiko is a day trip",
+      "tasks": [
+        "Akihabara",
+        "Asakusa",
+        "Shibuya / Shinjuku",
+        "Last-minute shopping"
+      ]
+    },
+    {
+      "code": "d1012",
+      "date_label": "Oct 12",
+      "title": "Harajuku & Shibuya",
+      "subtitle": "Ueno — Night 5 of 6 · Mon, Sports Day holiday — expect crowds",
+      "tasks": [
+        "Meiji Shrine (morning, before crowds)",
+        "Harajuku — Takeshita Street, Omotesando",
+        "Shibuya — Scramble Crossing, Shibuya Sky observation deck (book ahead, holiday Monday)",
+        "Flexible evening — Shibuya/Harajuku dinner, or head back to Ueno early"
+      ]
+    },
+    {
+      "code": "d1013",
+      "date_label": "Oct 13",
+      "title": "Disney",
+      "subtitle": "Ueno — Night 6 of 6 · Last full day · Tue — calmest day of the week",
+      "tasks": ["Tokyo DisneySea or Disneyland — full day", "Pack that night"]
+    },
+    {
+      "code": "d1014",
+      "date_label": "Oct 14",
+      "title": "Fly Home",
+      "subtitle": "Departure — no full day today",
+      "leg_index": 6,
+      "flights": [
+        {
+          "origin": "NRT",
+          "destination": "CRK",
+          "depart": "11:15 AM",
+          "arrive": "2:55 PM"
+        }
+      ],
+      "tasks": [
+        "Pack the night before — mornings are tight",
+        "Check out and head to Keisei Ueno Station by ~8:30am",
+        "Keisei Skyliner to Narita (~41 min)",
+        "Fly home"
+      ]
+    }
+  ],
+  "packing": [
+    {
+      "title": "Documents",
+      "items": [
+        "Passport / Japan visa (if required)",
+        "Flight confirmations",
+        "Hotel confirmations",
+        "Travel insurance",
+        "IC card or transportation plan",
+        "Pocket Wi-Fi or eSIM QR code"
+      ]
+    },
+    {
+      "title": "Money",
+      "items": [
+        "Yen (cash — some rural spots and smaller shops are cash-only)",
+        "Payment cards",
+        "ATM plan (7-Eleven ATMs accept international cards)"
+      ]
+    },
+    {
+      "title": "Gear",
+      "items": [
+        "Camera + batteries + memory cards",
+        "Comfortable walking shoes",
+        "Light autumn layers",
+        "Rain jacket / compact umbrella",
+        "Portable charger"
+      ]
+    },
+    {
+      "title": "Advance bookings (do before you go)",
+      "items": [
+        "Book the Hozugawa River Boat Ride time slot (a morning slot, especially) — sells out in autumn",
+        "Book Arashiyama Tsukitouro bamboo light-up tickets via EX Travel Reservations — it's a crowd-managed ticketed event",
+        "Book the Kamikochi day tour from Tokyo (Viator / KKday / Klook) — early, autumn color season sells out",
+        "Disney park ticket / date-based entry"
+      ]
+    }
+  ],
+  "tips": [
+    {
+      "title": "Should you get a JR Pass?",
+      "body": "Worth pricing out — the route is now just Osaka–Kyoto and Kyoto–Tokyo, both standard Shinkansen legs. The Kamikochi tour is a self-contained package with its own transport included, so it doesn't factor into the JR Pass math either way. Compare a national pass against buying the two Shinkansen legs separately."
+    },
+    {
+      "title": "IC card (Suica/Pasmo/ICOCA)",
+      "body": "You only need ONE — Suica, Pasmo, and ICOCA are all interoperable nationwide. Since you land at KIX first, ICOCA is the natural pick, bought right at the airport. iPhone users: even easier — download \"Welcome Suica Mobile\" from the App Store, set a secret keyword (no account needed), and it's instantly added to Apple Wallet. No purchase to add the card itself, you just top up whatever amount you want via Apple Pay (Mastercard/Amex work more reliably than Visa for pre-arrival top-ups). Covers city trains, subways, buses, and konbini purchases everywhere on this trip — but NOT the long-distance reserved-seat legs: Kyoto→Tokyo Shinkansen, the Kamikochi tour, the Kawaguchiko highway bus, the Sagano Romantic Train, the Hozugawa boat ride, or the Keisei Skyliner. Those all need separate tickets regardless of which IC card you have."
+    },
+    {
+      "title": "Book the tight ones early",
+      "body": "The Kamikochi day tour is the one to lock in early — these fill up fast during autumn color season, and going through an operator means you're at the mercy of their availability, not just a train schedule."
+    },
+    {
+      "title": "Weather in early-mid October",
+      "body": "Osaka/Kyoto/Nara/Tokyo are still fairly mild in early-mid October. Kamikochi is a different story — it sits at altitude in the Japan Alps and gets noticeably cold, especially mornings and evenings. Pack real layers just for that one day."
+    },
+    {
+      "title": "Luggage between cities",
+      "body": "With this many hotel changes, look into a takkyubin (luggage forwarding) service — drop a bag at your hotel in the morning and it arrives at your next hotel next day. Very common and cheap in Japan."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "japan-travel-buddy",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "dev": "./dev.sh",
+    "dev:web": "pnpm --filter @japan-travel/web dev",
+    "dev:api": "pnpm --filter @japan-travel/api dev",
+    "dev:worker": "pnpm --filter @japan-travel/api worker",
+    "dev:docker": "docker compose up -d postgres redis minio mailhog",
+    "dev:docker:down": "docker compose down",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "test": "turbo run test",
+    "db:migrate": "pnpm --filter @japan-travel/api migrate",
+    "db:migrate:new": "pnpm --filter @japan-travel/api migrate:new",
+    "db:seed": "pnpm --filter @japan-travel/api seed",
+    "db:seed:force": "pnpm --filter @japan-travel/api seed:force",
+    "db:reset:local": "bash scripts/dev/db-reset-local.sh",
+    "env:status": "bash scripts/dev/env-status.sh"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  }
+}

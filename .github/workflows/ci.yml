@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.15.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: pnpm install
+      - run: pnpm --filter @japan-travel/web type-check
+      - run: pnpm --filter @japan-travel/web test
+      - run: uv sync --all-extras --directory apps/api
+      - run: uv run --directory apps/api ruff check app tests
+      - run: uv run --directory apps/api pytest
